@@ -22,8 +22,11 @@ public class ReadMailUtils {
      */
     public static void resceive() throws Exception {
               /**
-         　　* 因为现在使用的是163邮箱 而163的 pop地址是　pop3.163.com　 端口是　110　　
-         　　　　　* 比如使用好未来企业邮箱 就需要换成 好未来邮箱的 pop服务器地址 pop.263.net  和   端口 110
+         　　* 163的 pop地址是　pop3.163.com　 端口是　110　　
+         　　　      服务器地址           端口
+               163   pop3.163.com        110
+               qq    pop:qq.com          995
+               sina  pop3.sina.com      110
          　　 */
         String port = "110";  // 端口号
         String servicePath = "pop3.163.com";   // 服务器地址
