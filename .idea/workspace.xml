@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45376d4e-c397-4d01-9bb4-2584218a052f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jeyson/tools/file/StreamUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jeyson/tools/mail/SendMailUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jeyson/tools/file/FileUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,18 +25,6 @@
             <state relative-caret-position="224">
               <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jeyson/tools/Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -66,16 +53,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SendMailUtils.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SendMailUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jeyson/tools/mail/SendMailUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+            <state relative-caret-position="288">
+              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1180#1531#0" expanded="true" />
-                <element signature="e#1530#1531#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MailUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jeyson/tools/mail/MailUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2560">
+              <caret line="87" column="65" lean-forward="false" selection-start-line="87" selection-start-column="65" selection-end-line="87" selection-end-column="65" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,22 +78,30 @@
       <file leaf-file-name="StreamUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jeyson/tools/file/StreamUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="160">
+              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#901#902#0" expanded="true" />
-                <element signature="e#955#956#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadMailUtils.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FileUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jeyson/tools/file/FileUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadMailUtils.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jeyson/tools/mail/ReadMailUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+            <state relative-caret-position="472">
+              <caret line="187" column="16" lean-forward="true" selection-start-line="187" selection-start-column="16" selection-end-line="187" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,7 +126,50 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
               <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-              <folding />
+              <folding>
+                <marker date="1517820226768" expanded="true" signature="79369:79490" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="79369:79508" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="79369:79521" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="79369:79536" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="79392:79473" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="79571:82141" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="79584:82126" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="79638:79933" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="79657:79918" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="79720:79898" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="79760:79864" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="79781:79842" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="79983:80310" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="80002:80295" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="80097:80275" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="80137:80241" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="80158:80219" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="80361:80626" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="80380:80611" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="80413:80591" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="80453:80557" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="80474:80535" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="80669:80975" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="80688:80960" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="80762:80940" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="80802:80906" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="80823:80884" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="81026:81378" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="81045:81363" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="81126:81343" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="81166:81309" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="81187:81287" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="81413:81719" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="81432:81704" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="81506:81684" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="81546:81650" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="81567:81628" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="81771:82112" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="81790:82097" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="81899:82077" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="81939:82043" ph="..." />
+                <marker date="1517820226768" expanded="true" signature="81960:82021" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,6 +186,11 @@
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -163,11 +214,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jeyson/tools/Utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeyson/tools/mail/ReadMailUtils.java" />
         <option value="$MAVEN_REPOSITORY$/javax/mail/javax.mail-api/1.5.6/javax.mail-api-1.5.6.jar!/javax/mail/Transport.class" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeyson/tools/file/StreamUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeyson/tools/mail/SendMailUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jeyson/tools/Utils.java" />
       </list>
     </option>
   </component>
@@ -230,6 +281,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,17 +344,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="jeyson" type="462c0819:PsiDirectoryNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-tools" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jeyson" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
               <item name="mail" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -323,10 +365,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -826,7 +866,10 @@
       <workItem from="1517457029219" duration="98000" />
       <workItem from="1517457713581" duration="13000" />
       <workItem from="1517537190243" duration="3171000" />
-      <workItem from="1517560575852" duration="336000" />
+      <workItem from="1517560575852" duration="898000" />
+      <workItem from="1517562682424" duration="197000" />
+      <workItem from="1517794413566" duration="2531000" />
+      <workItem from="1517819521660" duration="624000" />
     </task>
     <task id="LOCAL-00001" summary="基础工具">
       <created>1499861987780</created>
@@ -863,7 +906,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517456759221</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="邮件发送更新">
+      <created>1517560931027</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1517560931027</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -899,7 +949,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25945000" />
+    <option name="totallyTimeSpent" value="29859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -916,7 +966,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30150214" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3143777" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -972,7 +1022,8 @@
     <MESSAGE value="基础工具" />
     <MESSAGE value="个人配置" />
     <MESSAGE value="邮件接收工具" />
-    <option name="LAST_COMMIT_MESSAGE" value="邮件接收工具" />
+    <MESSAGE value="邮件发送更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="邮件发送更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -983,14 +1034,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -1011,7 +1054,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1076,7 +1119,7 @@
         <state relative-caret-position="207">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1141,7 +1184,7 @@
         <state relative-caret-position="138">
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1197,13 +1240,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeyson/tools/exception/JsException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeyson/tools/page/PageUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
@@ -1224,7 +1260,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1241,32 +1276,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1517388849852" expanded="true" signature="356:416" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeyson/tools/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1288,24 +1297,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeyson/tools/mail/MailUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="62" column="65" lean-forward="false" selection-start-line="62" selection-start-column="65" selection-end-line="62" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeyson/tools/mail/ReadMailUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeyson/tools/string/StringUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
@@ -1316,26 +1307,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeyson/tools/file/StreamUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeyson/tools/exception/JsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeyson/tools/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeyson/tools/file/StreamUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeyson/tools/mail/MailUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2560">
+          <caret line="87" column="65" lean-forward="false" selection-start-line="87" selection-start-column="65" selection-end-line="87" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <marker date="1517820226768" expanded="true" signature="79369:79490" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="79369:79508" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="79369:79521" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="79369:79536" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="79392:79473" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="79571:82141" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="79584:82126" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="79638:79933" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="79657:79918" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="79720:79898" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="79760:79864" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="79781:79842" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="79983:80310" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="80002:80295" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="80097:80275" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="80137:80241" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="80158:80219" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="80361:80626" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="80380:80611" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="80413:80591" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="80453:80557" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="80474:80535" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="80669:80975" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="80688:80960" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="80762:80940" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="80802:80906" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="80823:80884" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="81026:81378" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="81045:81363" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="81126:81343" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="81166:81309" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="81187:81287" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="81413:81719" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="81432:81704" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="81506:81684" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="81546:81650" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="81567:81628" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="81771:82112" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="81790:82097" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="81899:82077" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="81939:82043" ph="..." />
+            <marker date="1517820226768" expanded="true" signature="81960:82021" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeyson/tools/file/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeyson/tools/mail/SendMailUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="288">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1180#1531#0" expanded="true" />
-            <element signature="e#1530#1531#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeyson/tools/mail/ReadMailUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="187" column="16" lean-forward="true" selection-start-line="187" selection-start-column="16" selection-end-line="187" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
