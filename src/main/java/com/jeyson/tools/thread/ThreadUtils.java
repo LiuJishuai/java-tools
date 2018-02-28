@@ -12,11 +12,11 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @Description:
  */
 public class ThreadUtils {
-    public static ThreadFactory newThreadFactory(final String prefix) {
+    public static ThreadFactory newThreadFactory(final String threadName) {
         return new ThreadFactory() {
             AtomicInteger atomicInteger = new AtomicInteger(0);
             public Thread newThread(Runnable r) {
-                return new Thread(r, prefix + atomicInteger.getAndIncrement());
+                return new Thread(r, threadName + atomicInteger.getAndIncrement());
             }
         };
     }
