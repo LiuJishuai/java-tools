@@ -1,7 +1,6 @@
 package com.jeyson.tools.mail;
 
-import com.jeyson.tools.file.StreamUtils;
-
+import com.jeyson.tools.file.*;
 import javax.activation.DataHandler;
 import javax.mail.*;
 import javax.mail.internet.*;

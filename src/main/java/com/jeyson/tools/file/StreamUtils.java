@@ -1,5 +1,7 @@
 package com.jeyson.tools.file;
 
+import org.apache.commons.io.IOUtils;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
@@ -30,6 +32,15 @@ public class StreamUtils {
         return data;
     }
 
+    public static byte[] getInputStreamBytes(InputStream is) {
+        try {
+           return IOUtils.toByteArray(is);
+        } catch (Exception e) {
+            System.out.println(" error!"+ e.getMessage());
+        }
+
+        return null;
+    }
     public static InputStream transferBytes2InputStream(byte[] bytes){
         return new ByteArrayInputStream(bytes);
     }
