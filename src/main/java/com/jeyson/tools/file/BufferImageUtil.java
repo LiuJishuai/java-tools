@@ -1,5 +1,10 @@
 package com.jeyson.tools.file;
 
+import com.alibaba.simpleimage.ImageFormat;
+import com.alibaba.simpleimage.ImageRender;
+import com.alibaba.simpleimage.render.*;
+import com.alibaba.simpleimage.util.ImageUtils;
+
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.*;
@@ -60,4 +65,32 @@ public class BufferImageUtil implements Serializable {
         }
         return null;
     }
+
+    public static ByteArrayOutputStream resizeImage(InputStream inputStream, int width, int height, float quality) {
+        ByteArrayOutputStream outputStream = null;
+        ImageRender wr = null;
+        try {
+            ImageFormat imageFormat = null;
+            try {
+                imageFormat = ImageUtils.identifyFormat(inputStream);
+            } catch (Exception e) {
+            }
+            if (imageFormat == null) {
+                imageFormat = ImageFormat.JPEG;
+            }
+            //压缩
+            ScaleParameter scaleParameter = new ScaleParameter(width, height);
+            ImageRender sr = new ScaleRender(inputStream, scaleParameter);
+            WriteParameter writeParameter = new WriteParameter();
+            writeParameter.setDefaultQuality(quality);
+            outputStream = new ByteArrayOutputStream();
+            wr = new WriteRender(sr, outputStream,imageFormat,writeParameter);
+            wr.render();
+        } catch (Exception e) {
+            outputStream = null;
+            System.out.println("BufferImageUtil resizeImage error " + e.getMessage());
+        }
+        return outputStream;
+    }
+
 }

@@ -1,10 +1,13 @@
 package com.jeyson.tools;
+import com.jeyson.tools.file.BufferImageUtil;
 import com.jeyson.tools.file.FileUtils;
 import com.jeyson.tools.http.*;
 import com.jeyson.tools.mail.*;
 import org.junit.Test;
 
+import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.InputStream;
 
 
 /**
@@ -33,4 +36,13 @@ public class Utils {
         System.out.println("byte："+bytes);
         FileUtils.getFileByBytes(bytes,new File("C:\\Users\\jeyson\\Desktop\\image\\123333.jpg"));
     }
+
+    @Test
+    public void testResizeImage() throws Exception {
+        File file=new File("C:\\Users\\jeyson\\Desktop\\image\\123.jpg");
+        InputStream inputStream= FileUtils.getInputStreamByFile(file);
+        ByteArrayOutputStream outputStream= BufferImageUtil.resizeImage(inputStream,50,50,1.0f);
+        FileUtils.getFileByBytes(outputStream.toByteArray(),new File("C:\\Users\\jeyson\\Desktop\\image\\111111.jpg"));
+    }
+
 }
