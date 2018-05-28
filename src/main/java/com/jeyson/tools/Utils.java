@@ -1,4 +1,5 @@
 package com.jeyson.tools;
+import com.alibaba.fastjson.JSON;
 import com.jeyson.tools.file.BufferImageUtil;
 import com.jeyson.tools.file.FileUtils;
 import com.jeyson.tools.http.*;
@@ -8,6 +9,9 @@ import org.junit.Test;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 
 /**
@@ -17,6 +21,14 @@ import java.io.InputStream;
  */
 public class Utils {
 
+    @Test
+    public void testJSON() throws Exception {
+        List<Long> list=new ArrayList<Long>();
+        List<Long> list1=new ArrayList<Long>();
+        list1.add(1L);
+        list1.add(2L);
+
+    }
     @Test
     public void testLogger() throws Exception {
         String sk= HttpUtils.getMethod("http://code.taobao.org/");
