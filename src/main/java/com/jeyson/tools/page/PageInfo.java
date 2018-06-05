@@ -83,4 +83,15 @@ public class PageInfo implements Serializable {
         this.totalNum = totalNum;
         this.list = list;
     }
+
+    @Override
+    public String toString() {
+        return "PageInfo{" +
+                "pageIndex=" + pageIndex +
+                ", pageSize=" + pageSize +
+                ", pageNum=" + pageNum +
+                ", totalNum=" + totalNum +
+                ", list=" + list +
+                '}';
+    }
 }

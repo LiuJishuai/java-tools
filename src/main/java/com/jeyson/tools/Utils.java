@@ -3,7 +3,9 @@ import com.alibaba.fastjson.JSON;
 import com.jeyson.tools.file.BufferImageUtil;
 import com.jeyson.tools.file.FileUtils;
 import com.jeyson.tools.http.*;
+import com.jeyson.tools.jackson.JsonMapper;
 import com.jeyson.tools.mail.*;
+import com.jeyson.tools.page.PageInfo;
 import org.junit.Test;
 
 import java.io.ByteArrayOutputStream;
@@ -55,6 +57,19 @@ public class Utils {
         InputStream inputStream= FileUtils.getInputStreamByFile(file);
         ByteArrayOutputStream outputStream= BufferImageUtil.resizeImage(inputStream,50,50,1.0f);
         FileUtils.getFileByBytes(outputStream.toByteArray(),new File("C:\\Users\\jeyson\\Desktop\\image\\111111.jpg"));
+    }
+
+    @Test
+    public void  testJackson(){
+        PageInfo pageInfo=new PageInfo();
+        pageInfo.setList(null);
+        pageInfo.setPageIndex(1);
+        pageInfo.setPageNum(1);
+        pageInfo.setTotalNum(12);
+        String json=JsonMapper.toJson(pageInfo);
+        PageInfo info=JsonMapper.fromJson(json,PageInfo.class);
+        System.out.println("json:"+json);
+        System.out.println("info:"+info);
     }
 
 }
