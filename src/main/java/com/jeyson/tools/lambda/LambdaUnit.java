@@ -3,6 +3,7 @@ package com.jeyson.tools.lambda;
 import com.alibaba.fastjson.JSON;
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.IntSummaryStatistics;
 import java.util.List;
@@ -60,6 +61,19 @@ public class LambdaUnit {
                 " count=" + statistics.getCount()
         );
 
+    }
+
+    @Test
+    public void  testUpdateDTO(){
+        HelloDTO d1=new HelloDTO(1L,"tx","");
+        HelloDTO d2=new HelloDTO(2L,"wy","");
+        List<HelloDTO> list=new ArrayList<>();
+        list.add(d1);list.add(d2);
+        list.forEach(x->{
+            x.setDesc(x.getName()+":TT");
+        });
+
+        list.forEach(System.out::println);
     }
 
 }
