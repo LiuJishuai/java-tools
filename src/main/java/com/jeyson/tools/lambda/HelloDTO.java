@@ -2,11 +2,12 @@ package com.jeyson.tools.lambda;
 
 /**
  * @Author: liujishuai
- * @Time: 2018/7/3 14:47
+ * @Time:
  * @Description:
  */
 public class HelloDTO {
     private Long id;
+    private int status;
     private String name;
     private String desc;
 
@@ -34,16 +35,27 @@ public class HelloDTO {
         this.desc = desc;
     }
 
-    public HelloDTO(Long id, String name, String desc) {
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
+    }
+
+    public HelloDTO(Long id, int status, String name, String desc) {
         this.id = id;
+        this.status = status;
         this.name = name;
         this.desc = desc;
     }
+
 
     @Override
     public String toString() {
         return "HelloDTO{" +
                 "id=" + id +
+                ", status=" + status +
                 ", name='" + name + '\'' +
                 ", desc='" + desc + '\'' +
                 '}';

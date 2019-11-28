@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 
 /**
  * @Author: liujishuai
- * @Time: 2018/5/28 19:25
+ * @Time:
  * @Description:
  */
 public class LambdaUnit {
@@ -65,15 +65,15 @@ public class LambdaUnit {
 
     @Test
     public void  testUpdateDTO(){
-        HelloDTO d1=new HelloDTO(1L,"tx","");
-        HelloDTO d2=new HelloDTO(2L,"wy","");
-        List<HelloDTO> list=new ArrayList<>();
-        list.add(d1);list.add(d2);
-        list.forEach(x->{
-            x.setDesc(x.getName()+":TT");
-        });
-
-        list.forEach(System.out::println);
+//        HelloDTO d1=new HelloDTO(1L,"tx","");
+//        HelloDTO d2=new HelloDTO(2L,"wy","");
+//        List<HelloDTO> list=new ArrayList<>();
+//        list.add(d1);list.add(d2);
+//        list.forEach(x->{
+//            x.setDesc(x.getName()+":TT");
+//        });
+//
+//        list.forEach(System.out::println);
     }
 
 }
