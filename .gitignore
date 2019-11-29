@@ -1,0 +1,18 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.classpath
+.project
+.settings
+target
+*.iml
+.springBeans
+.idea
+.idea/*.xml
