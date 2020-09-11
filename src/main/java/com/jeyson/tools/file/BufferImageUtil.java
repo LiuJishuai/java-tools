@@ -6,6 +6,7 @@ import com.alibaba.simpleimage.render.*;
 import com.alibaba.simpleimage.util.ImageUtils;
 
 import javax.imageio.ImageIO;
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.*;
 
@@ -62,6 +63,18 @@ public class BufferImageUtil implements Serializable {
             return ImageIO.read(stream);
         } catch (Exception e) {
             System.out.println("BufferImageUtil getBufferImageByInputStream error: " + e.getMessage());
+        }
+        return null;
+    }
+
+    public static Image getImageByByte(byte[] imageByte){
+        ByteArrayInputStream inputStream = new ByteArrayInputStream(imageByte);
+        try {
+            BufferedImage bi=ImageIO.read(inputStream);
+            Image im=(Image)bi;
+            return im;
+        } catch (Exception e) {
+            System.out.println("BufferImageUtil getImageByByte  has error:"+ e.getMessage());
         }
         return null;
     }
