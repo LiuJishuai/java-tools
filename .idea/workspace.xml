@@ -19,7 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45376d4e-c397-4d01-9bb4-2584218a052f" name="Default" comment="lambda" />
+    <list default="true" id="45376d4e-c397-4d01-9bb4-2584218a052f" name="Default" comment="commons-collection version">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-tools.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -543,7 +550,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574927987184</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="jackson version">
+      <created>1599826964446</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1599826964446</updated>
+    </task>
+    <task id="LOCAL-00015" summary="commons-collection version">
+      <created>1599827073651</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1599827073651</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,9 +605,15 @@
     <MESSAGE value="线程池工具" />
     <MESSAGE value="jackson" />
     <MESSAGE value="lambda" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambda" />
+    <MESSAGE value="jackson version" />
+    <MESSAGE value="commons-collection version" />
+    <option name="LAST_COMMIT_MESSAGE" value="commons-collection version" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2785" y="253" key="CommitChangelistDialog2" timestamp="1599827073529">
+      <screen x="1440" y="-61" width="2560" height="1417" />
+    </state>
+    <state x="2785" y="253" key="CommitChangelistDialog2/0.23.1440.823/1440.-61.2560.1417@1440.-61.2560.1417" timestamp="1599827073529" />
     <state x="1540" y="39" width="2360" height="1217" key="DiffContextDialog" timestamp="1599826872395">
       <screen x="1440" y="-61" width="2560" height="1417" />
     </state>
@@ -607,6 +634,10 @@
       <screen x="1440" y="-61" width="2560" height="1417" />
     </state>
     <state width="2518" height="409" key="GridCell.Tab.0.right/0.23.1440.823/1440.-61.2560.1417@1440.-61.2560.1417" timestamp="1599825294719" />
+    <state x="2320" y="387" key="Vcs.Push.Dialog.v2" timestamp="1599827074793">
+      <screen x="1440" y="-61" width="2560" height="1417" />
+    </state>
+    <state x="2320" y="387" key="Vcs.Push.Dialog.v2/0.23.1440.823/1440.-61.2560.1417@1440.-61.2560.1417" timestamp="1599827074793" />
     <state x="2366" y="264" width="708" height="676" key="search.everywhere.popup" timestamp="1599740751309">
       <screen x="1440" y="-61" width="2560" height="1417" />
     </state>

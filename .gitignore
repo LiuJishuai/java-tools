@@ -15,4 +15,6 @@ target
 *.iml
 .springBeans
 .idea
-.idea/*.xml
+.idea/*
+java-tools.iml
+
