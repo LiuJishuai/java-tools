@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45376d4e-c397-4d01-9bb4-2584218a052f" name="Default" comment="lambda">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jeyson/tools/file/Colors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jeyson/tools/file/GroupAvatarUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jeyson/tools/file/BufferImageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jeyson/tools/file/BufferImageUtil.java" afterDir="false" />
-    </list>
+    <list default="true" id="45376d4e-c397-4d01-9bb4-2584218a052f" name="Default" comment="lambda" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -593,6 +587,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="lambda" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1540" y="39" width="2360" height="1217" key="DiffContextDialog" timestamp="1599826872395">
+      <screen x="1440" y="-61" width="2560" height="1417" />
+    </state>
+    <state x="1540" y="39" width="2360" height="1217" key="DiffContextDialog/0.23.1440.823/1440.-61.2560.1417@1440.-61.2560.1417" timestamp="1599826872395" />
     <state width="2518" height="409" key="GridCell.Tab.0.bottom" timestamp="1599825294720">
       <screen x="1440" y="-61" width="2560" height="1417" />
     </state>
